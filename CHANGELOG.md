@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-01 - Minor improvements
+
+- Added confidence score field to triage output payload
+- Improved enrichment pipeline to handle rate-limited external threat feeds
+- Fixed bug where duplicate alerts were not correctly merged across sources
+- Refactored scoring weights into configurable YAML file
+
 ## 2026-05-29 - Minor improvements
 
 - Enhanced threat scoring algorithm with additional IOC indicators
