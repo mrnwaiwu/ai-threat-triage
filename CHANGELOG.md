@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-04 - Minor improvements
+
+- Added support for multi-stage threat confidence aggregation
+- Improved IOC enrichment pipeline to reduce lookup latency by ~18%
+- Fixed edge case where unresolved hostnames caused triage pipeline to stall
+- Refactored alert grouping logic for better cross-source correlation
+
 ## 2026-06-01 - Minor improvements
 
 - Added confidence score field to triage output payload
