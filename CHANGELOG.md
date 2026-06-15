@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-15 - Minor improvements
+
+- Added YARA rule integration for binary-level threat classification
+- Improved ML model recall for low-volume APT indicator detection
+- Fixed false-negative edge case in domain reputation scoring for ccTLDs
+- Added configurable alert suppression window for recurring benign patterns
+
 ## 2026-06-04 - Minor improvements
 
 - Added support for multi-stage threat confidence aggregation
