@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-18 - Minor improvements
+
+- Added severity decay function to age out stale IOC matches over a configurable window
+- Improved correlation between sandbox detonation results and static triage scores
+- Fixed race condition when enriching alerts from concurrent threat feed pollers
+- Tuned APT classifier thresholds to reduce noise from commodity malware signatures
+
 ## 2026-06-15 - Minor improvements
 
 - Added YARA rule integration for binary-level threat classification
