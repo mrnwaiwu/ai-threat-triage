@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-25 - Minor improvements
+
+- Added geolocation enrichment for IP-based IOC lookups in the triage pipeline
+- Improved alert batching to reduce downstream API calls during high-volume events
+- Fixed scoring edge case for indicators with empty threat actor attribution fields
+- Tuned confidence thresholds for low-fidelity threat feed sources
+
 ## 2026-06-18 - Minor improvements
 
 - Added severity decay function to age out stale IOC matches over a configurable window
