@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-06-29 - Minor improvements
+
+- Added behavioral clustering to group alerts by attacker TTPs across concurrent campaigns
+- Improved sandbox detonation timeout handling to prevent pipeline stalls on evasive samples
+- Fixed false-positive spike when scoring indicators from newly onboarded threat feeds
+- Tuned MITRE ATT&CK sub-technique mapping to reduce ambiguous tactic assignments
+
 ## 2026-06-25 - Minor improvements
 
 - Added geolocation enrichment for IP-based IOC lookups in the triage pipeline
