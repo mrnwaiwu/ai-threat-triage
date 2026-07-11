@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-07-11 - Minor improvements
+
+- Added enrichment caching layer to cut repeat IOC lookups against identical indicators
+- Improved triage queue prioritization to surface critical alerts ahead of bulk feed ingest
+- Fixed edge case where malformed STIX bundles aborted the full ingestion batch
+- Tuned APT vs. commodity classifier weights to reduce misrouted mid-confidence alerts
+
 ## 2026-06-29 - Minor improvements
 
 - Added behavioral clustering to group alerts by attacker TTPs across concurrent campaigns
