@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2026-07-15 - Minor improvements
+
+- Added lateral movement indicator scoring to correlate multi-hop alert chains across hosts
+- Improved TAXII 2.1 collection polling to handle paginated results from large feeds
+- Fixed memory leak in enrichment worker pool when processing oversized STIX objects
+- Tuned low-confidence suppression window to avoid flooding queues during threat feed resets
+
 ## 2026-07-11 - Minor improvements
 
 - Added enrichment caching layer to cut repeat IOC lookups against identical indicators
